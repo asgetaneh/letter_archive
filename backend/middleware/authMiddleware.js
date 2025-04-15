@@ -11,6 +11,7 @@ const authenticate = async (req, res, next) => {
   }
 
   try {
+    const user = await User.findById(req.userId); // you should have `userId` in JWT or Firebase decoded token
     const decodedToken = await admin.auth().verifyIdToken(token);
     req.user = decodedToken; // Attach user data to request
     next();
