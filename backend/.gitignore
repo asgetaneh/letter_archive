@@ -6,6 +6,7 @@ node_modules/
 
 # Ignore environment config
 .env
+firebase-service-account.json
 
 # Ignore compiled Python or PHP files
 *.pyc
