@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "letters": "Letters",
+    "routing": "Routing & Tracking",
+    "templates": "Templates",
+    "signatures": "Digital Signatures",
+    "archive": "Archive",
+    "reports": "Reports",
+    "admin": "System Admin"
+  },
+  "app": { "title": "Letter Tracking & Management System" },
+  "menu": {
+    "incoming": "Incoming Letters",
+    "outgoing": "Outgoing Letters",
+    "internal": "Internal Letters",
+    "pending": "Pending Letters",
+    "search": "Search Letters",
+    "inbox": "My Inbox",
+    "routingHistory": "Routing History",
+    "overdue": "Overdue Alerts",
+    "letterTypes": "Letter Types",
+    "templateList": "Template Management",
+    "templatePreview": "Template Preview",
+    "pendingSignatures": "Pending Signatures",
+    "signedHistory": "Signed Records",
+    "certificates": "Certificate Management",
+    "archivedLetters": "Letter Archive",
+    "retentionPolicies": "Retention Policies",
+    "pendencyReport": "Pendency Report",
+    "volumeReport": "Volume Report",
+    "exportCenter": "Export Center",
+    "users": "User Management",
+    "roles": "Roles & Permissions",
+    "offices": "Organization Structure",
+    "languages": "Language Management",
+    "auditLogs": "Audit Logs",
+    "systemSettings": "System Settings"
+  },
+  "users": {
+    "title": "User Management",
+    "create": "New User",
+    "createTitle": "Create User",
+    "editTitle": "Edit User",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "newPasswordOptional": "New Password (leave blank to keep)",
+    "roles": "Roles",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "locale": "Language",
+    "searchPlaceholder": "Search by name or email",
+    "confirmDelete": "Delete this user permanently?"
+  },
+  "common": {
+    "loading": "Loading…",
+    "saving": "Saving…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "actions": "Actions",
+     "reset": "Reset",
+    "refresh": "Refresh"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "logout": "Logout",
+    "loginFailed": "Login failed. Check your credentials."
+  } ,
+  "letters": {
+    "incoming": {
+      "title": "Incoming Letters",
+      "subtitle": "Register, track, and manage all incoming correspondence.",
+      "registerNew": "Register New Letter",
+      "recent": "Recent Letters",
+      "empty": "No letters registered yet.",
+      "registerButton": "Register Letter"
+    },
+    "stats": {
+      "total": "Total",
+      "pending": "Active"
+    },
+    "placeholders": {
+      "sender": "e.g., Ministry of Finance",
+      "subjectEn": "Letter subject in English",
+      "subjectAm": "Letter subject in Amharic",
+      "body": "Optional letter content or summary..."
+    },
+    "success": {
+      "saved": "Letter registered successfully."
+    }
+  },
+  "priority": {
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "urgent": "Urgent"
+  },
+  "status": {
+    "registered": "Registered",
+    "routed": "Routed",
+    "pending": "Pending",
+    "signed": "Signed",
+    "archived": "Archived"
+  }
+  
+}

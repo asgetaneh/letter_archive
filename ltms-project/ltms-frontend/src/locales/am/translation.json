@@ -1,0 +1,90 @@
+{
+  "app": { "title": "Letter Tracking & Management System" },
+  "nav": {
+    "dashboard": "ዳሽቦርድ",
+    "letters": "ደብዳቤዎች",
+    "settings": "ቅንብሮች",
+    "officer": "ቢሮ"
+  },
+  
+  "settings": {
+    "subtitle": "ተጠቃሚዎችን፣ ሚናዎችን፣ ቢሮዎችን እና የስርዓት ምርጫዎችን ያስተዳድሩ።",
+    "placeholder": "የተጠቃሚ እና ሚና አስተዳደር በሁለተኛው ምዕራፍ ይተገበራል።",
+    "users": "የተጠቃሚ አስተዳደር",
+    "roles": "ሚናዎች እና ፈቃዶች",
+    "offices": "የድርጅቱ አዋጅ",
+    "languages": "የቋንቋ አስተዳደር",
+    "auditLogs": "የአዲስ መዝገቦች",
+    "systemSettings": "የስርዓት ቅንብሮች"
+  },
+  "auth": {
+    "login": "ግባ",
+    "email": "ኢሜይል",
+    "password": "የይለፍ ቃል",
+    "signIn": "ይግቡ",
+    "logout": "ውጣ",
+    "loginFailed": "መግባት አልተሳካም። መረጃዎን ያረጋግጡ።"
+  }, 
+  "users": {
+    "title": "የተጠቃሚ አ�ስተዳደር",
+    "create": "አዲስ ተጠቃሚ",
+    "createTitle": "የተጠቃሚ መፍጠር",
+    " editTitle": "የተጠቃሚ ማስተካከያ",
+    "name": "ስም",
+    "email": "ኢሜይል",
+    "password": "የይለፍ ቃል",
+    "confirmPassword": "የይለፍ ቃልን ያረጋግጡ",
+    "newPasswordOptional": "አዲስ የይለፍ ቃ� (ባዶ ቢያስቀምጡ � ይቀይራል)",
+    "roles": "ሚ�ናዎች",
+    "status": "ሁኔታ",
+    "active": "ንቁ",
+    "inactive": "ያልተነሳ",
+    "activate": "ንቁ አድርግ",
+    "deactivate": "ያልተነሳ አድርግ",
+    "locale": "ቋንቋ",
+    "searchPlaceholder": "በስም ወይም ኢሜይል ይፈልጉ",
+    "confirmDelete": "ይህን ተጠቃሚ በሙሉ ማጥፋት �?"
+  },
+  "letters": {
+    "subtitle": "ገቢ፣ ወጪ እና የውስጥ ደብዳቤዎችን ይመዝግቡ፣ ያስተላልፉ እና ይከታተሉ።",
+    "placeholder": "የደብዳቤ ዝርዝር እና የምዝገባ ቅጽ በሁለተኛው ምዕራፍ ይተገበራል።",
+    "incoming": {
+      "title": "ገቢ ደብዳቤዎች",
+      "subtitle": "ገቢ ደብዳቤዎችን ይመዝግቡ፣ ይከታተሉ እና ያስተዳድሩ።",
+      "registerNew": "አዲስ ደብዳቤ ይመዝግቡ",
+      "recent": "የቅርብ ጊዜ ደብዳቤዎች",
+      "empty": "እስካሁን ምንም ደብዳቤ አልተመዘገበም።",
+      "registerButton": "ደብዳቤ ይመዝግቡ"
+    },
+    "stats": {
+      "total": "ጠቅላላ",
+      "pending": "በሂደት ላይ"
+    },
+    "placeholders": {
+      "sender": "ለምሳሌ፡ የፋይናንስ ሚኒስቴር",
+      "subjectEn": "የደብዳቤ ርዕስ በእንግሊዝኛ",
+      "subjectAm": "የደብዳቤ ርዕስ በአማርኛ",
+      "body": "የደብዳቤ ይዘት ወይም ማጠቃለያ (አማራጭ)..."
+    },
+    "success": {
+      "saved": "ደብዳቤው በተሳካ ሁኔታ ተመዝግቧል።"
+    }
+  },
+  "priority": {
+    "low": "ዝቅተኛ",
+    "normal": "መደበኛ",
+    "high": "ከፍተኛ",
+    "urgent": "አስቸኳይ"
+  },
+  "status": {
+    "registered": "ተመዝግቧል",
+    "routed": "ተላልፏል",
+    "pending": "በሂደት ላይ",
+    "signed": "ተፈርሟል",
+    "archived": "ተመዝግቧል"
+  },
+  "common": {
+    "reset": "እንደገና",
+    "refresh": "አድስ"
+  }
+}
